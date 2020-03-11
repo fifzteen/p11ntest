@@ -9,8 +9,6 @@
 //
 //
 //
-//
-//
 var script = {
   name: 'HelloWorld',
   props: {
@@ -18,7 +16,7 @@ var script = {
   },
   data: function data() {
     return {
-      img: require('../assets/logo.png')
+      img: require(imgpath)
     };
   }
 };
@@ -118,7 +116,7 @@ var __vue_staticRenderFns__ = [];
   /* style */
   const __vue_inject_styles__ = undefined;
   /* scoped */
-  const __vue_scope_id__ = "data-v-e28850d0";
+  const __vue_scope_id__ = "data-v-fc38481e";
   /* module identifier */
   const __vue_module_identifier__ = undefined;
   /* functional template */

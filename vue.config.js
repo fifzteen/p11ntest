@@ -6,7 +6,7 @@ module.exports = {
       configureRollup: {
         plugins: [
           replace({
-            '../assets/logo.png': "'../src/assets/logo.png'"
+            imgpath: "'../src/assets/logo.png'"
           })
         ]
       }

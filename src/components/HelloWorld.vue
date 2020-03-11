@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-    <img
-      v-bind:src="img"
-    >
+    <img v-bind:src="img">
   </div>
 </template>
 
@@ -14,7 +12,7 @@ export default {
   },
   data: function(){
     return {
-      img: require('../assets/logo.png')
+      img: require(imgpath)
     }
   }
 }
