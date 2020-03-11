@@ -11,7 +11,8 @@
     "docs:build": "vue-cli-service docs --mode build",
     "docs:serve": "vue-cli-service docs --mode serve",
     "prepublish": "vue-cli-service lint && vue-cli-service docs --mode build && vue-cli-service build",
-    "start": "vue-cli-service serve"
+    "start": "vue-cli-service serve",
+    "rollup": "rollup -c rollup.config.js"
   },
   "main": "dist/p11ntest.common.js",
   "module": "dist/p11ntest.esm.js",
